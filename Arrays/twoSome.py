@@ -1,6 +1,12 @@
 nums = [2,7,11,15]
 target = 17
 
+#! enumerate to provide index to every elemet
+#! use hashset to remove duplicacy
+#! calculate compliment and check if its in hashset
+#! if yes then retrn the index
+
+
 hash_set = set()
 for i,n in enumerate(nums):
     print(i,n)
